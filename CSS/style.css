@@ -1,0 +1,132 @@
+:root{
+    --roxo:rgb(40, 40, 75);
+    --roxo_escuro:rgb(40, 40, 75);
+    --lilas:rgb(200, 200, 255);
+    --ciano:rgb(190, 255, 255);
+    --azul:rgb(86, 215, 255);
+    --transparente_roxo:rgba(0, 0, 0, 0.329);
+    --transparente_azul:rgba(3, 53, 97, 0.486);
+}
+*{
+    overflow: hidden;
+    padding: 0;margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--roxo);
+}
+.links{
+    position:fixed;
+    width: 100%;
+}
+
+header{
+    width: 100%;height: 100px;
+    background-color: var(--roxo);
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 28px;
+    color: var(--lilas);
+}
+
+nav{
+    width: 100%;height: auto;
+    background-color: var(--transparente_roxo);
+}
+nav ul{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--lilas);
+    padding: 12px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color:var(--lilas);
+    color: var(--roxo_escuro);
+}
+
+.imagem{
+    width: 70%;height: 585px;
+    padding-left: 15%;
+    padding-top: 100px;
+}
+
+#first{
+    width: 100%;height: auto;
+    text-align: center;
+    background-color: var(--transparente_roxo);
+}
+#first h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+#first h2{
+    color: white;
+}
+#first a{
+    text-decoration:overline;
+    color: var(--ciano);
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 100px;
+}
+#first h3{
+    text-decoration:overline;
+    color: var(--ciano);
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    
+}
+#first a:hover{
+    text-decoration:overline;
+    color: var(--azul);
+    background-color: var(--transparente_azul);
+}
+
+.descricao{
+    width: 100%;height: auto;
+    text-align: center;
+    background-color: var(--transparente_roxo);
+}
+.descricao h1{
+    padding-bottom: 20px;
+    color: white;
+}
+.descricao h2{
+    color: white;
+}
+.descricao a{
+    text-decoration:overline;
+    color: var(--ciano);
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 100px;
+}
+.descricao h3{
+    text-decoration:overline;
+    color: var(--ciano);
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    
+}
+.descricao a:hover{
+    text-decoration:overline;
+    color: var(--azul);
+    background-color: var(--transparente_azul);
+}
